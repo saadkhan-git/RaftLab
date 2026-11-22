@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "dev",
+      "problemMatcher": [],
+      "label": "Start RaftLab Dev Server",
+      "detail": "Runs Vite development server on http://localhost:5173",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "type": "npm",
+      "script": "build",
+      "problemMatcher": [],
+      "label": "Build RaftLab for Production",
+      "detail": "Runs vite build"
+    }
+  ]
+}
